@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Painel da Farmácia</title>
+    <link rel="stylesheet" href="/static/dashboard.css">
+</head>
+<body>
+
+<header>
+    <h1>💊 Farmácia Popular</h1>
+    <p>Bem-vindo, {{ usuario }}!</p>
+</header>
+
+<section class="cards">
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png">
+        <h2>Produtos</h2>
+        <p>Veja a lista completa de medicamentos disponíveis.</p>
+        <a href="/produtos">Acessar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/1040/1040227.png">
+        <h2>Usuários</h2>
+        <p>Gerencie os funcionários cadastrados no sistema.</p>
+        <a href="/usuarios">Acessar</a>
+    </div>
+
+    <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/684/684831.png">
+        <h2>Vendas</h2>
+        <p>Registre vendas e acompanhe movimentações.</p>
+        <a href="/vendas">Acessar</a>
+    </div>
+
+</section>
+
+<footer>
+    <p>© TODOS OS DIREITOS RESERVADOS 2025</p>
+</footer>
+
+</body>
+</html>
